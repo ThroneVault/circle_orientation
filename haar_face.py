@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')    # yuz tarama dosyasi
+face_cascade = cv2.CascadeClassifier('C:\Users\Alper\PycharmProjects\starting\haarcascade_eye.xml')    # yuz tarama dosyasi
 
 cap = cv2.VideoCapture(0)        #Videoyu almak icin
 k=0
